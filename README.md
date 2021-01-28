@@ -1,9 +1,13 @@
- 將Panda table轉成圖檔並儲存&&解決matplotlib中文亂碼問題
- 
+ #將Panda table轉成圖檔並儲存
+
 文章參考:
 
 https://ithelp.ithome.com.tw/m/articles/10231378 
 
+
+
+解決matplotlib中文亂碼問題
+  
 https://pyecontech.com/2020/03/27/python%E6%95%99%E5%AD%B8-%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BAmatplotlib%E4%B8%AD%E6%96%87%E4%BA%82%E7%A2%BC%E5%95%8F%E9%A1%8C/
 
 
