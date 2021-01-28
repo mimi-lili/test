@@ -11,6 +11,7 @@
 
 下載喜歡的字體
 
+
 步驟二 
 
 用以下指令找到matplotlib位置
@@ -18,21 +19,30 @@ import matplotlib
 print(matplotlib.__file__)
 
 matplotlib位置如下，把剛下載的字體放入matplotlib中的mpl-data\fonts\ttf
+
 ( D:\python3.7\Lib\site-packages\matplotlib\mpl-data\fonts\ttf )
+
 
 步驟三 
 
 到\.matplotlib刪除快取(快取會記錄原使用的字體)刪除fontList.json
  C:\Users\你電腦的名字\.matplotlib
+ 
 ( 到C:\Users\dxgh\.matplotlib 刪除fontList.json )
+
 
 步驟四
 
 檢查字型是否成功安裝
+
 import matplotlib.font_manager 
+
 a = sorted([f.name for f in matplotlib.font_manager.fontManager.ttflist])
+
 for i in a:
+
     print(i)
+
 
 使用說明:
 
